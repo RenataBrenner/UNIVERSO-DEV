@@ -1,0 +1,35 @@
+/*
+
+display
+-block
+-inline
+-inline-block
+- flex
+ -> flex-direction
+ -> flex-wrap
+ -> flex-flow
+ -> justify - contents
+ -> align-itens
+ -> align-content
+ */
+
+ .conteiner {
+    background-color: white;
+    display: flex;
+    flex-direction: row;
+    
+ }
+ .box {
+    background-color: brown;
+    width: 200px;
+    height: 200px;
+    margin: 10px;
+    color: white;
+    font-size: 48px;
+    text-align: center;
+ }
+ 
+ 
+ 
+ 
+ 

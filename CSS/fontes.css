@@ -1,0 +1,33 @@
+@import url('https://fonts.googleapis.com/css2?family=Sedgwick+Ave+Display&display=swap');
+
+
+/* 
+Tamanho
+Espessura
+Cor
+Familia
+Estilo (font-size)
+Altura da linha (line-height)
+Espaçamento entre as letras (letter-spacing)
+Espaçamento das palavras (word-spacing)
+Alinhamento de texto (text-align)
+*/
+
+
+
+h1{
+    font-size: 40px;
+    font-weight: bold;
+    color: chocolate;
+}
+.subtitulo{
+    font-size: 24px;
+    font-family: 'Sedgwick Ave Display', cursive;
+}
+.descrição{
+    font-size: 40px;
+    line-height: 35px;
+    word-spacing: 20px;
+    text-align: start;
+
+}

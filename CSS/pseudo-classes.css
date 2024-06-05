@@ -1,0 +1,71 @@
+/*
+:hover
+:active
+:focus
+:checked
+:disabled
+:enabled
+*/
+
+.quadrado{
+    height: 100px;
+    width: 100px;
+    background-color: orangered;
+    margin-top: 50px;
+}
+
+.quadrado:hover{
+    background-color: green;
+}
+button:active{
+    background-color: orange;
+}
+input:focus{
+    background-color: brown;
+}
+
+input:checked{
+    background-color: aqua;
+    width: 100px;
+    height: 100px;
+}
+
+button:disabled{
+    font-weight: bold;
+}
+
+button:enabled{
+    color: blue;
+}
+
+/*
+:first-child
+:last-child
+:first-of-type
+:last-of-type
+:nth-child()
+:nth-last-child()
+*/
+
+li:first-child{
+    color: red;
+}
+li:last-child{
+    color: blue;
+}
+
+input:first-of-type{
+    height: 100px;
+    width: 100px;
+}
+input:last-of-type{
+    height: 100px;
+    width: 100px;
+}
+
+li:nth-child(1){
+    font-weight: bold;
+}
+li:nth-last-child(1){
+    font-weight: bold;
+}

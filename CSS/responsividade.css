@@ -1,0 +1,30 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.conteudo {
+    background-color: bisque;
+    padding: 5px;
+    width: 700px;
+}
+@media screen and (max-width:600px) and (orientation: landscape) {
+    .conteudo{
+        background-color: red; }
+
+}
+
+@media screen and (min-width: 800px)  {
+    .conteudo {
+        font-weight: bold;
+    }
+    
+}
+@media screen and (min-height: 300px) {
+    .conteudo {
+        font-weight: 200;
+        background-color: yellow;
+    }
+    
+}

@@ -1,0 +1,33 @@
+* {
+    box-sizing: border-box;
+}
+
+body{
+    background-color: black;
+    color: white;
+    font-weight: bold;
+    font-size: 32px;
+
+}
+.caixa1{
+    background-color: red;
+    height: 300px;
+    width: 300px ;
+    /*padding: 10px;*/
+}
+
+.caixa2 {
+    background-color: aqua;
+    height: 300px;
+    width: 300px;
+    margin: 50px;
+    padding: 100px;
+}
+
+.caixa3 {
+    background-color: yellow;
+    height: 300px;
+    width: 300px;
+    padding: 25px 40px 50px
+
+}

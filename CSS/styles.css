@@ -1,0 +1,35 @@
+
+
+/* eu sou um comentário */
+
+ h1 {
+    color: blue !important;
+    font-size: 20px;
+    background-color: black;
+    }
+
+    .introdução {
+        background-color: yellow;
+    }
+.destaque {
+    font-weight: bold;
+    font-weight: 24px;
+
+}
+
+.outra-classe{
+    font-weight: 24px;
+
+}
+
+    form {
+        background-color: red;
+    }
+
+    #email {
+        font-size: 48px;
+    }
+
+    h1{
+        color: brown;
+    }

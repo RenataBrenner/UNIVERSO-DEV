@@ -1,0 +1,22 @@
+a::before{
+    content: '('attr(href)')';
+    color: red;
+    text-decoration: none;
+}
+
+p::selection{
+    background-color: yellow;
+}
+
+input::placeholder{
+    color: aqua;
+}
+
+
+
+/*
+after
+before
+selection
+placeholder
+*/

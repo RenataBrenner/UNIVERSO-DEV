@@ -1,0 +1,33 @@
+/*
+MEDIDAS
+
+-Absolutas 
+px (pixels)
+
+- Relativas
+% (porcentagem relativa ao elemento pai)
+vw (view weight) 1vw é 1% da largura do navegador
+vh (view height) 1vw é 1% da altura do navegador
+em unidade relativa ao elemento pai
+rem unidade relativa ao elemento raiz
+*/
+
+.avo{
+    color: blueviolet;
+    width: 100vw;
+    height: 100vh;
+    background-color: black;
+    font-size: 14px;
+}
+.pai{
+    font-size: 2em;
+    width: 3em;
+    height: 50%;
+    background-color: white;
+}
+
+.filho{
+    width: 3rem;
+    height: 50%;
+    background-color: brown;
+}
